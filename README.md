@@ -1,4 +1,4 @@
-﻿# FoodExplorer-frontend
+﻿# Food Explorer
 
 Projeto final do Explorer, cursa da Rocketseat
 
