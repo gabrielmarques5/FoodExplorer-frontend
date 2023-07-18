@@ -31,7 +31,7 @@ export const Container = styled.div`
         height: 100%;
         border-radius: 5rem;
         transition: 0.3s;
-        outline: 1px solid ${({ theme }) => theme.COLORS.BLUE};
+        outline: 1px solid ${({ theme }) => theme.COLORS.WHITE};
         -webkit-box-shadow: 0px 0px 10px 5px #193746; 
         box-shadow: 0px 0px 10px 5px #193746;
     }

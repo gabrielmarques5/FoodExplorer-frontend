@@ -45,7 +45,7 @@ export const Content = styled.div`
         height: 50.9rem;
         margin: -25.6rem -1rem;
         
-        color: ${({ theme }) => theme.COLORS.BLUE};
+        color: ${({ theme }) => theme.COLORS.WHITE};
         font-weight: bolder;
         mask-image: none;
     }

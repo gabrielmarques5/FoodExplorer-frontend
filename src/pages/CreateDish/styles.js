@@ -81,7 +81,7 @@ export const Form = styled.form`
     }
 
     .dishCategory select {
-    background: ${({ theme }) => theme.COLORS.BLUE_300};
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_800};
 
     border-radius: 0.5rem;
     border: none;
@@ -130,7 +130,7 @@ export const Form = styled.form`
         }
 
         > label:hover {
-            background-color: ${({ theme }) => theme.COLORS.BLUE};
+            background-color: ${({ theme }) => theme.COLORS.BACKGROUND_850};
         }
     }
 

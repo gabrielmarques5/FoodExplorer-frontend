@@ -25,7 +25,7 @@ export const Content = styled.div`
     }
 
     .favButton svg {
-        fill: ${({ theme }) => theme.COLORS.BLUE};
+        fill: ${({ theme }) => theme.COLORS.WHITE};
     }
 
     .container {
@@ -66,7 +66,7 @@ export const Content = styled.div`
         font-family: 'Roboto', sans-serif;
         font-size: 3.2rem;
         font-weight: 400;
-        color: ${({ theme }) => theme.COLORS.BLUE};
+        color: ${({ theme }) => theme.COLORS.WHITE};
 
         margin-bottom: 1.6rem;
     }
@@ -97,7 +97,7 @@ export const PurchaseCard = styled.div`
     p {
         font-weight: 700;
         line-height: 160%;
-        color: ${({ theme }) => theme.COLORS.BLUE};
+        color: ${({ theme }) => theme.COLORS.WHITE};
         text-align: center;
     }
 `;

@@ -33,7 +33,6 @@ export const Content = styled.div`
     }
     
     .swiper-slide {
-        /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
@@ -54,7 +53,7 @@ export const Content = styled.div`
         height: 51.2rem;
         margin: -25.6rem -1rem;
         
-        color: ${({ theme }) => theme.COLORS.BLUE};
+        color: ${({ theme }) => theme.COLORS.WHITE};
         font-weight: bolder;
         mask-image: none;
     }
@@ -90,11 +89,9 @@ export const Banner = styled.div`
     margin-bottom: 6.2rem;
 
     .banner {
-        background: linear-gradient(180deg, ${({ theme }) => theme.COLORS.BLUE_400} 0%, ${({ theme }) => theme.COLORS.BLUE_500} 100%);
+        background: linear-gradient(180deg, ${({ theme }) => theme.COLORS.BACKGROUND_700} 0%, ${({ theme }) => theme.COLORS.BACKGROUND_800} 100%);
         border-radius: 0.8rem;
         position: relative;
-        -webkit-box-shadow: 0px 0px 10px 5px #193746; 
-        box-shadow: 0px 0px 10px 5px #193746;
     }
 
     .title {

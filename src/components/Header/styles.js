@@ -11,12 +11,9 @@ export const Container = styled.header`
     z-index: 999;
     
     justify-content: center;
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
 
-    -webkit-box-shadow: 0px 0px 10px 5px #193746; 
-    box-shadow: 0px 0px 10px 5px #193746;
 
-    // ================= KEYFRAMES ================= //
     @keyframes scale-up-center {
         0% {
             transform: scale(1);
@@ -82,7 +79,7 @@ export const Content = styled.div`
         
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: ${({ theme }) => theme.COLORS.BLUE};
+        background-color: ${({ theme }) => theme.COLORS.WHITE};
     }
 
     @media only screen and (max-width: 768px) {
@@ -103,13 +100,9 @@ export const Content = styled.div`
             gap: 2rem;
             padding: 5rem 5rem 3rem;
             border-radius: 0 0 2rem 2rem;
-            border: 1px solid ${({ theme }) => theme.COLORS.BLUE};
             
             transition: 0.3s;
             
-            background-color: ${({ theme }) => theme.COLORS.BLUE_200};
-            box-shadow:
-                0 10px 27px rgba(0, 0, 0, 0.05);
         }
 
         .nav-menu.active {
@@ -142,7 +135,7 @@ export const Content = styled.div`
 export const Logo = styled.div`
     display: flex;
     align-items: center;
-    color: ${({ theme }) => theme.COLORS.BLUE};
+    color: ${({ theme }) => theme.COLORS.WHITE};
     
     h1 {
         font-size: 2.51109rem;
@@ -169,7 +162,7 @@ export const Search = styled.div`
     width: 100%;
     border-radius: 5px;
 
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_INPUT};
 
     input {
         width: 100%;
@@ -214,7 +207,7 @@ export const Button = styled.button`
     
     font-size: 1.4rem;
 
-    background-color: ${({ theme }) => theme.COLORS.BLUE};
+    background-color: ${({ theme }) => theme.COLORS.RED};
     color: ${({ theme }) => theme.COLORS.WHITE};
 
     padding: 0 3rem;
@@ -232,7 +225,7 @@ export const Logout = styled(Link)`
     background: none;
     
     > svg {
-        color: ${({ theme }) => theme.COLORS.BLUE};
+        color: ${({ theme }) => theme.COLORS.WHITE};
         font-size: 3.2rem;
     }
 
@@ -253,7 +246,7 @@ export const Profile = styled.div`
     cursor: pointer;
 
     > svg {
-        color: ${({ theme }) => theme.COLORS.BLUE};
+        color: ${({ theme }) => theme.COLORS.WHITE};
         font-size: 3.2rem;
     }
     
@@ -278,11 +271,11 @@ export const Profile = styled.div`
         z-index: 9999;
         
         border-radius: 1rem;
-        border: 1px solid ${({ theme }) => theme.COLORS.BLUE};
+        border: 1px solid ${({ theme }) => theme.COLORS.RED};
         
         transition: 0.3s;
         
-        background-color: ${({ theme }) => theme.COLORS.BLUE_200};
+        background-color: ${({ theme }) => theme.COLORS.RED};
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
     }
@@ -303,5 +296,5 @@ export const ButtonMenu = styled.button`
     font-size: 1.4rem;
 
     color: ${({ theme }) => theme.COLORS.WHITE};
-    background-color: ${({ theme }) => theme.COLORS.BLUE_200};
+    background-color: ${({ theme }) => theme.COLORS.RED};
 `;

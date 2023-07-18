@@ -57,7 +57,7 @@ export const Image = styled.div`
         height: 18.6rem;
         border-radius: 50%;
         object-fit: cover;
-        border: 2px solid ${({ theme }) => theme.COLORS.BLUE};
+        border: 2px solid ${({ theme }) => theme.COLORS.WHITE};
     }
     
     > label {
@@ -72,9 +72,8 @@ export const Image = styled.div`
         width: 4.8rem;
         height: 4.8rem;
         
-        background-color: ${({ theme }) => theme.COLORS.BLUE_500};
         border-radius: 50%;
-        border: 3px solid ${({ theme }) => theme.COLORS.BLUE};
+        border: 3px solid ${({ theme }) => theme.COLORS.WHITE};
 
         cursor: pointer;
 
@@ -85,7 +84,7 @@ export const Image = styled.div`
         svg {
             width: 2rem;
             height: 2rem;
-            color: ${({ theme }) => theme.COLORS.BLUE};
+            color: ${({ theme }) => theme.COLORS.WHITE};
         }
     }
 
@@ -154,7 +153,7 @@ export const Form = styled.form`
     }
 
     .dishCategory select {
-        background: ${({ theme }) => theme.COLORS.BLUE_300};
+        background: ${({ theme }) => theme.COLORS.BACKGROUND_800};
 
         border-radius: 0.5rem;
         border: none;
@@ -203,7 +202,7 @@ export const Form = styled.form`
         }
 
         > label:hover {
-            background-color: ${({ theme }) => theme.COLORS.BLUE};
+            background-color: ${({ theme }) => theme.COLORS.BACKGROUND_850};
         }
 
         p {

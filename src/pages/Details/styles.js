@@ -34,7 +34,7 @@ export const Content = styled.div`
         margin: 2rem 0 2rem;
         font-size: 3.2rem;
         line-height: 5.12rem;
-        color: ${({ theme }) => theme.COLORS.BLUE};
+        color: ${({ theme }) => theme.COLORS.WHITE};
     }
 
     .content {
@@ -67,7 +67,7 @@ export const Content = styled.div`
             line-height: 5.6rem;
 
             border: 1px solid white;
-            background-color: ${({ theme }) => theme.COLORS.BLUE_300};
+            background-color: ${({ theme }) => theme.COLORS.WHITE};
         }
 
         button:first-child {
@@ -166,7 +166,7 @@ export const PurchaseCard = styled.div`
     p {
         font-weight: 700;
         line-height: 160%;
-        color: ${({ theme }) => theme.COLORS.BLUE};
+        color: ${({ theme }) => theme.COLORS.WHITE};
         text-align: center;
     }
 `;

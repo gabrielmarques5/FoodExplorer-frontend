@@ -9,7 +9,7 @@ export const Container = styled.div`
     border: ${({ theme, isNew }) => isNew ? `1px dashed ${theme.COLORS.GRAY_300}` : "none"};
 
     color: ${({ theme }) => theme.COLORS.GRAY_300};
-    background-color: ${({ theme, isNew }) => isNew ? "transparent" : theme.COLORS.BLUE_300};
+    background-color: ${({ theme, isNew }) => isNew ? "transparent" : theme.COLORS.WHITE};
     
     svg {
         vertical-align: middle;
@@ -25,7 +25,7 @@ export const Container = styled.div`
     }
 
     .button-add {
-        color: ${({ theme }) => theme.COLORS.BLUE};
+        color: ${({ theme }) => theme.COLORS.WHITE};
     }
 
     > input {

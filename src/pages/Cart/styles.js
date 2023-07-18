@@ -50,7 +50,7 @@ export const Content = styled.div`
         border-radius: 10px;
 
         border: 1px solid white;
-        background-color: ${({ theme }) => theme.COLORS.BLUE_300};
+        background-color: ${({ theme }) => theme.COLORS.WHITE};
     }
 
     @media only screen and (min-width: 768px) {
@@ -127,7 +127,6 @@ export const PaymentCard = styled.div`
     }
 
     .paymentBody {
-        /* ==== General card settings ==== */
 
         width: 100%;
         max-width: 53.0rem;
@@ -143,7 +142,6 @@ export const PaymentCard = styled.div`
         align-items: center;
         align-content: center;
         
-        /* ==== CreditCard Screen ==== */
         .validTo {
             display: flex;
             gap: 1.7rem;
@@ -154,7 +152,6 @@ export const PaymentCard = styled.div`
             margin-bottom: 0.8rem;
         }
 
-        /* ==== QR Code Screen ==== */
         .paymentPix {
             text-align: center;
         }
@@ -187,7 +184,6 @@ export const PaymentCard = styled.div`
         }
     }
 
-    /* ==== Smooth Transitions ==== */
     .cart,
     .clock,
     .approved,

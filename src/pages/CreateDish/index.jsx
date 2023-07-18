@@ -1,7 +1,5 @@
-// Styling Imports
 import { Container, Content, Form } from "./styles.js";
 
-// Theme Swap Imports
 import { ThemeProvider } from 'styled-components';
 import { ThemeSlider} from "../../components/ThemeSlider";
 import { useDarkMode } from '../../styles/useDarkMode';
@@ -9,7 +7,6 @@ import GlobalStyles from '../../styles/global'
 import lightTheme from '../../styles/lightTheme';
 import darkTheme from '../../styles/theme';
 
-// Components Imports
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import { Button } from "../../components/Button";
@@ -19,14 +16,12 @@ import { IngredientsTag } from "../../components/IngredientsTag";
 import { Textarea } from "../../components/Textarea";
 import { PageError } from "../../components/PageError";
 
-// Strategic Imports (API and others)
 import { api } from "../../services/api";
 import { useAuth } from "../../hooks/auth";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-// Image Imports
 import { RiArrowLeftSLine } from 'react-icons/ri';
 import { FiUpload } from "react-icons/fi";
 
@@ -40,7 +35,6 @@ export function CreateDish( ) {
 
     const navigate = useNavigate();
 
-    // Add and Remove Ingredients
     const [ingredients, setIngredients] = useState([]);
     const [newIngredient, setNewIngredient] = useState("");
 
@@ -63,7 +57,6 @@ export function CreateDish( ) {
     const [category, setCategory] = useState("");
     const [image, setImage] = useState(null);
 
-    // Create New Dish Function
     async function handleNewDish() {
         if (!image) {
             return alert("Erro: Você não inseriu uma imagem para o prato!");

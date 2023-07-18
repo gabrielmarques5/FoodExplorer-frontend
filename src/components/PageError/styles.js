@@ -46,7 +46,7 @@ export const Container = styled.div`
         span{
             font-weight: 700;
             font-size: 5rem;
-            color: ${({theme})=> theme.COLORS.BLUE}
+            color: ${({theme})=> theme.COLORS.WHITE}
         }
     }
 `;

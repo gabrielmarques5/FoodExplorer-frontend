@@ -43,7 +43,6 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-    /* ==== Configs gerais do Card ==== */
     width: 100%;
     max-width: 53.0rem;
     max-height: 48rem;
@@ -53,7 +52,6 @@ export const Content = styled.div`
     border: 1px solid ${({ theme }) => theme.COLORS.GRAY_200};
     border-radius: 0 0 0.8rem 0.8rem;
     
-    /* ==== Tela do Cartão de Crédito ==== */
     .validTo {
         display: flex;
         gap: 1.7rem;
@@ -64,7 +62,6 @@ export const Content = styled.div`
         margin-bottom: 0.8rem;
     }
 
-    /* ==== Tela do QR Code ==== */
     .paymentPix {
         text-align: center;
     }
@@ -79,7 +76,6 @@ export const Content = styled.div`
         margin-bottom: 2rem;
     }
 
-    /* ==== Tela Pós Pagamento ==== */
     .clock,
     .approved,
     .delivered,
@@ -97,7 +93,6 @@ export const Content = styled.div`
         margin-top: 3rem;
     }
 
-    /* ==== HIDE ==== */
     .hide {
         display: none;
     }
